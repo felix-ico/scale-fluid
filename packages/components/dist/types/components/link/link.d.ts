@@ -56,7 +56,7 @@ export declare class Link {
     ping: string;
     referrerpolicy: "no-referrer" | "no-referrer-when-downgrade" | "origin" | "origin-when-cross-origin" | "same-origin" | "strict-origin" | "strict-origin-when-cross-origin" | "unsafe-url";
     rel: string;
-    target: "_self" | "_blank" | "_parent" | "_top";
+    target: "_blank" | "_self" | "_parent" | "_top";
     type: string;
   };
   render(): any;

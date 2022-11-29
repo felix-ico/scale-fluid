@@ -53,7 +53,7 @@ export declare class ToggleGroup {
   }): void;
   handlePropsChange(): void;
   componentDidLoad(): void;
-  getAllToggleButtons(): Element[];
+  getAllToggleButtons(): HTMLScaleToggleButtonElement[];
   /**
    * Keep props, needed in children buttons, in sync
    */
