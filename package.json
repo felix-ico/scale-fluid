@@ -5,6 +5,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "0.0.1",
   "scripts": {
     "clean": "./scripts/clean.sh",
     "build": "./scripts/build.sh",
